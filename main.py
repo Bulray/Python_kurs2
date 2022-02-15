@@ -35,4 +35,5 @@ def page_user(user_name):
 
     return render_template("user-feed.html", posts=posts, posts_count=posts_count, user_name=user_name)
 
-app.run()
+if __name__ == '__name__':
+  app.run(debug=True)
