@@ -57,7 +57,7 @@ def get_comments_all():
         else:
             return None
 """
-возвращает комменатрии"""
+получаем комменатрии"""
 
 def get_comments_by_user(pk):
     comments = get_comments_all()
